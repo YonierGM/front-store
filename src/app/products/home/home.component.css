@@ -1,0 +1,24 @@
+.content-list{
+    display: grid;
+    grid-template-areas: "menu-navbar" 
+    "categoria" 
+    "productos";
+
+    gap: 10px;
+}
+
+.menu{
+    grid-area: menu-navbar;
+    width: 100%;
+    z-index: 1000;
+    background: white;
+}
+
+.categoria{
+    grid-area: categoria;
+    height: auto;
+}
+
+.productos{
+    grid-area: productos;
+}

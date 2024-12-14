@@ -1,0 +1,14 @@
+h4{
+    text-align: center;
+}
+.category{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.category select{
+    height: 50px;
+    border-radius: 8px;
+}
