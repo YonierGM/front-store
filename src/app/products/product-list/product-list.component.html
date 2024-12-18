@@ -3,7 +3,7 @@
     @for(item of products; track item.title){
     <div class="w-full max-w-lg bg-white rounded-sm shadow dark:border-gray-700">
       <a href="#">
-        <img class="p-8 rounded-t-lg" [src]="item.images" alt="product image" />
+        <img class="p-8 rounded-t-lg" [src]="item.images" onerror="this.src='/images/404.jpg'"  alt="product image" />
       </a>
       <div class="px-5 pb-5">
         <a href="#">
